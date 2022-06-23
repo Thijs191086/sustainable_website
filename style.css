@@ -1,0 +1,392 @@
+
+*{
+    margin:0%;
+    padding:0%;
+}
+.navBar{
+    width:100%;
+    background-color:#CAEEFC;
+    padding:1%;
+    border-radius: 2px;
+}
+.navBar ul{
+    list-style-type:none;
+    text-align:center;
+}
+.navBar li{
+    display:inline-block;
+    justify-content:space-between;
+    padding-left:5%;
+    padding-right:5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    color:#417C94;
+    list-style-type:none;
+    list-style:none;
+}
+.navBar a{
+    text-decoration:none;
+    list-style:none;
+    color:#417C94;
+}
+.navBar a:hover{
+    color:#91BCD1;
+}
+.navBar img{
+    max-width:40%;
+}
+.frontpage_text{
+    padding:8%;
+    background-color:#FFFCFC;
+    margin-bottom:7%;
+    color:#417C94;
+}
+.frontpage_text h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    text-align:center;
+    padding-right:60%;
+    padding-top:10%;
+    margin-top:0%;
+}
+.frontpage_text p{
+    text-align:center;
+    padding-right:60%;
+    margin-top:20%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.frontpage_text button{
+    text-align:center;
+    margin-left: 12%;
+    margin-top:2%;
+    border:none;
+    background-color:#CAEEFC;
+    padding:15px 32px;
+    border-radius: 50px;
+}
+.frontpage_text a{
+    color:#417C94;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.frontpage_text img{
+    max-height:700px;
+    max-width:auto;
+    margin-left:50%;
+    margin-top:0%;
+    position:absolute;
+}
+
+.mission{
+    background-color:#91BCD1;
+    padding:5%;
+    margin-left:0%;
+    margin-right:0%;   
+}
+.mission img{
+    max-height:100px;
+    max-width:auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . . . ."
+      "mission mission mission mission mission mission mission mission"
+      ". . . . . . . .";
+  }
+  
+  .mission {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto_1 titel_2 foto_2 titel_3 foto_3 titel_4 foto_4 titel_5"
+      "foto_1 tekst_2 foto_2 tekst_3 foto_3 tekst_4 foto_4 tekst_5";
+    grid-area: mission;
+  }
+  
+  .foto_1 { 
+      grid-area: foto_1;
+    }
+  
+  .titel_2 {
+       grid-area: titel_2;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+  .tekst_2 { 
+      grid-area: tekst_2;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      
+    }
+  
+  .foto_2 {
+     grid-area: foto_2; 
+    }
+  
+  .titel_3 {
+     grid-area: titel_3;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+  .tekst_3 {
+     grid-area: tekst_3;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+  .foto_3 {
+     grid-area: foto_3; 
+    }
+  
+  .titel_4 { 
+     grid-area: titel_4; 
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+  .tekst_4 {
+     grid-area: tekst_4; 
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+  .foto_4 {
+     grid-area: foto_4;
+    }
+  
+  .titel_5 {
+     grid-area: titel_5;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+  
+  .tekst_5 {
+     grid-area: tekst_5; 
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .customer_reviews{
+        margin-top:0%;
+        padding-top:0%;
+        margin-bottom:10%;
+        color:#417C94;
+    }
+    .customer_reviews h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        margin-left:10%;
+        text-align:center;
+        margin-right:60%;
+
+    }
+    .customer_reviews p{
+        font-size:15px;
+        margin-left:10%;
+        margin-bottom:1%;
+        text-align:center;
+        margin-right:60%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .customer_reviews img  {
+        max-width:auto;
+        position:absolute;
+        margin-left:60%;
+        margin-bottom:10%;
+        margin-top:-3%;
+    }
+    .Instagram_promotion{
+        background-color:#417C94;
+        padding:5%;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:space-around;
+    }
+    .Instagram_promotion h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+    }
+    .Instagram_promotion img{
+        max-width:300px;
+        max-height:auto;
+    }
+    .Instagram_promotion h2{
+      position:absolute;
+      text-align:left;
+      padding-right:70%;
+      margin-top:-3%;
+      color:#FFFCFC;
+    }
+    footer{
+        background-color:#91BCD1;
+        text-align:right;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top:10%;
+        padding-top:2%;
+        padding-right:3%;
+        padding-bottom:2%;
+        color:#FFFCFC;
+    }
+    footer a{
+        color:#FFFCFC;
+        text-decoration:none;
+    }
+    footer a:hover{
+        color:#417C94;
+    }
+    /*Contact page*/
+    #leave_a_message{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        color:#417C94;
+        padding-left:5%;
+        padding-top:5%;
+    }
+    #help_us_grow{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:15px;
+        padding-left:5%;
+        color:#91BCD1;
+    }
+    form{
+        padding-top:2%;
+        padding-left:5%;
+    }
+    input[type=text]{
+        border: 2px solid #91BCD1;
+        border-radius:7px;
+        width:20%;
+        margin:0.5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        outline:none;
+        padding:5px 15px;
+    }
+
+    textarea{
+        border-radius: 10px;
+        width:500px;
+        margin:0.5%;
+        height:150px;
+        /*box-sizing:border-box;*/
+        font-size:15px;
+        resize:horizontal;
+        border: 2px solid #91BCD1;
+    }
+    form p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#417C94;
+        font-size:15px;
+        margin-left:15px;
+    }
+    input[type=submit]{
+        background-color:#91BCD1;
+        border:none;
+        color:#FFFCFC;
+        text-decoration:none;
+        padding:5px 10px;
+        border-radius:7px;
+        margin-left:10px;
+        margin-bottom:20%;
+    }
+    input[type=submit]:hover{
+        position:absolute;
+        background-color:#417C94;
+    }
+    #or{
+        position:absolute;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-left:55%;
+        margin-top:-30%;
+        color:#417C94;
+    }
+    #customerservice_contact_page {
+        position:absolute;
+        text-align:right;
+        margin-right:20%;
+        margin-top:-30%;
+        position:relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:15px;
+        color:#417C94;
+    }
+    #customerservice_contact_page a{
+        color:#417C94;
+    }
+
+    /*About page*/
+    .text_left{
+        text-align:left;
+        margin-left:5%;
+        margin-top:5%;
+        margin-right:60%;
+        margin-bottom:20%;
+    }
+    .text_left h2{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        color:#417C94;
+    }
+    .text_left p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+        color:#91BCD1;
+    }
+    .text_right{
+        text-align:right;
+        margin:5%;
+        margin-left:60%;
+    
+    }
+    .text_right h2{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        color:#417C94;
+    }
+    .text_right p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+        color:#91BCD1;
+    }
+    .dark_blue_stripe{
+        margin-top:10%;
+        padding:5%;;
+        background-color: #417C94;
+    }
+    #face_scrub_picture{
+        position:absolute;
+        margin-left:55%;
+        margin-top:5%;
+        max-height:600px;
+    }
+    #soap_bar_about{
+        position:absolute;
+        margin-left:5%;
+        margin-top:-4%;
+        max-height:600px;
+    }
+    .text_right ul{
+        list-style-type: none;
+    }
+    .text_right a:link{
+        text-decoration:none;
+        color:#91BCD1;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+    .text_right a:hover{
+        text-decoration: none;
+        color:#417C94;
+    }
+    .text_right a:visited{
+        text-decoration: none;
+        color:#91BCD1;
+    }    
+    .text_right a:active{
+        text-decoration: none;
+        color:#91BCD1;
+    }
