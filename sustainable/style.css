@@ -56,11 +56,8 @@
 }
 .frontpage_text button{
     text-align:center;
-    margin-left: 12%;
-    margin-top:2%;
     border:none;
     background-color:#CAEEFC;
-    padding:15px 32px;
     border-radius: 50px;
 }
 .frontpage_text a{
@@ -197,11 +194,11 @@
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     .customer_reviews img  {
-        max-width:auto;
+        max-width:300px;
         position:absolute;
         margin-left:60%;
-        margin-bottom:10%;
-        margin-top:-15%;
+        margin-bottom:20%;
+        margin-top:-25%;
     }
     .Instagram_promotion{
         background-color:#417C94;
@@ -413,4 +410,44 @@
     .text_right a:active{
         text-decoration: none;
         color:#91BCD1;
+    }
+/*shop */
+    .container_shop{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:8% 5% 10% 5%;
+    }
+    .container_shop  h3{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        color:#417C94;
+        text-align: center;
+    }
+    .container_shop p{
+        color:#91BCD1;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    .container_shop img{
+        max-width: 300px;
+        max-height:auto;
+    }
+    .container_shop button{
+        text-align:center;
+        border-radius:15px;
+        padding:10px 30px;
+        border:none;
+        background-color: #91BCD1;
+        color:#FFFCFC;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+    #text_shop{
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding:60px 80px 0px 80px;
     }
